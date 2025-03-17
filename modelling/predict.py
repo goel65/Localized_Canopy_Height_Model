@@ -1,8 +1,8 @@
 import os
 import argparse
 import glob
-from data_processing.data_loader import SatelliteDataLoader
-from data_processing.raster_producer import RasterProducer
+from utils.data_loader import SatelliteDataLoader
+from utils.raster_producer import RasterProducer
 from models.multi_modal_lstm import MultiModalLSTM
 
 def parse_args():

@@ -4,7 +4,7 @@ import numpy as np
 from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 
-from data_processing.data_loader import SatelliteDataLoader
+from utils.data_loader import SatelliteDataLoader
 from models.multi_modal_lstm import MultiModalLSTM
 
 def parse_args():

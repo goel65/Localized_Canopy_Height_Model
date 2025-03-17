@@ -21,7 +21,7 @@ This repository contains a multi-modal LSTM model for processing satellite data,
 │   ├── sentinel1_processing.py      # Sentinel-1 data processing
 │   └── sentinel2_processing.py      # Sentinel-2 data processing
 ├── modelling/                        # Model-related code
-│   ├── data_processing/             # Model-specific data processing
+│   ├── utils/                       # Model-specific utilities
 │   ├── models/                      # Model architecture
 │   ├── train.py                     # Training script
 │   └── predict.py                   # Prediction script
