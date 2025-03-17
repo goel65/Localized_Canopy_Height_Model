@@ -1,5 +1,8 @@
 ### For Landsat processing, we start with loading the landsat feature files. 
 ### These would be of the shape (H, W, 11) and there should be T files (where T is the number of timestamps(or days) we have landsat data from)
+### We first create a data dictionary with image coordinates as keys, and the values are the time series information of all band values for that pixel. 
+### This preliminary step helps us with the memory overload. 
+### Next, these dictionaries are used to create training and test samples, which requires modyfing the Fmask band (cloud cover probablity), and normalizing the reflectance values. 
 import os
 import glob
 import data_processing.utils.HLS_functions as hls
