@@ -1,6 +1,7 @@
-# Multi-Modal LSTM Model for Satellite Data Processing
+# Multi-Modal LSTM Model for Satellite Data Processing [![IEEE TGRS](https://img.shields.io/badge/IEEE-TGRS-blue.svg)](https://ieeexplore.ieee.org/document/10891518)
 
 This repository contains a multi-modal LSTM model for processing satellite data, including Landsat, Sentinel-1, and Sentinel-2 data. The model is designed to predict Canopy Height Model (CHM) values using a combination of satellite imagery and ground truth data.
+
 
 ## Repository Structure
 
