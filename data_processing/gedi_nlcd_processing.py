@@ -1,5 +1,5 @@
 # Once you have the numpy arrays of all the feature sensors (sentinel 1, sentinel 2 and landsat), 
-# use this script to make them ready for training/testing. 
+# Start this script to make them ready for training/testing. The order is gedi_nlcd_processing -> landsat_processing -> sentinel2_processing -> sentinel1_processing
 # Define the Location dictionary with the following keys:
 # Xmin, Xmax, Ymin, Ymax, ncols, nrows, spatial_resolution
 
