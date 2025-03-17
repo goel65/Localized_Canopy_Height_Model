@@ -62,10 +62,11 @@ class SatelliteDataLoader:
         lan_train_features = np.load(f'{self.base_dir}/landsat/training_files/train_features.npy')
         sen_train_features = np.load(f'{self.base_dir}/sentinel2/training_files/train_features.npy')
         sen1_train_features = np.load(f'{self.base_dir}/sentinel1/training_files/train_features.npy')
+        nlcd_train = np.load(f'{self.base_dir}/sentinel2/training_files/nlcd_train_samples.npy')
         
         # Load labels
         gedi_train = np.load(f'{self.base_dir}/sentinel2/training_files/gedi_train_samples.npy')
-        nlcd_train = np.load(f'{self.base_dir}/sentinel2/training_files/nlcd_train_samples.npy')
+
         
         # Convert NLCD to one-hot encoding
         nlcd_train = pd.get_dummies(nlcd_train)
