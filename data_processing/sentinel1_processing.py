@@ -1,3 +1,5 @@
+### For Sentinel 1 processing, we start with loading the band 1 (VV) and band 2 (VH) files we have. 
+### These would be of the shape (H, W, 1) and there should be T files for each band (where T is the number of timestamps(or days) we have sentinel 1 data from)
 import os
 import glob
 import data_processing.utils.SEN1_functions as sen1
