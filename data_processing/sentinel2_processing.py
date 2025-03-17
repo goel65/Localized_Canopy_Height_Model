@@ -1,3 +1,5 @@
+### For Sentinel 2 processing, we start with loading the landsat feature files. 
+### These would be of the shape (H, W, 14) and there should be T files (where T is the number of timestamps(or days) we have sentinel 2 data from)
 import os
 import glob
 import data_processing.utils.HLS_functions as hls
